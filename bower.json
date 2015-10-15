@@ -1,0 +1,26 @@
+{
+  "name": "breeze-extjs",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Iarly/breeze-extjs",
+  "authors": [
+    "Iarly <iarly@pmict.com>"
+  ],
+  "description": "Breeze.js proxy for ExtJS",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "extjs",
+    "breezejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breeze.js": "https://github.com/Iarly/breeze.js.git#~1.4.13"
+  }
+}
