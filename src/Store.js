@@ -1,4 +1,4 @@
-Ext.define("Stratws.data.Store", {
+Ext.define("Breeze.data.Store", {
     extend: Ext.data.Store,
 
     constructor: function (config) {

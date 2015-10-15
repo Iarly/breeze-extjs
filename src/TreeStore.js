@@ -1,4 +1,4 @@
-Ext.define("Stratws.data.TreeStore", {
+Ext.define("Breeze.data.TreeStore", {
     extend: Ext.data.TreeStore,
 
     pageSize: 25,
@@ -78,11 +78,11 @@ Ext.define("Stratws.data.TreeStore", {
     },
 
     clearFilter: function () {
-        return Stratws.data.Store.prototype.clearFilter.apply(this, arguments);
+        return Breeze.data.Store.prototype.clearFilter.apply(this, arguments);
     },
 
     filter: function () {
-        return Stratws.data.Store.prototype.filter.apply(this, arguments);
+        return Breeze.data.Store.prototype.filter.apply(this, arguments);
     },
 
     loadPage: function (page, options) {

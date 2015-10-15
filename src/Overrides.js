@@ -123,8 +123,8 @@ Ext.override(Ext.data.association.HasMany,
                     modelDefaults: k,
                     disableMetaChangeEvent: true
                 });
-                if (h.tree) n[c] = Stratws.data.TreeStore.create(l);
-                else n[c] = Stratws.data.Store.create(l);
+                if (h.tree) n[c] = Breeze.data.TreeStore.create(l);
+                else n[c] = Breeze.data.Store.create(l);
                 if (b || (n.raw[h.associatedName] && n.raw[h.associatedName].length > 0)) {
 
                     var reader = h.getReader();
