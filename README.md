@@ -1,1 +1,1 @@
-# ext.breeze
+# breeze-extjs
